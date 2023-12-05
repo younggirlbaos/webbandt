@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #343436;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn_back {
+    background-color: red;
+}
+
+
+/* header ---------------------------------------------------- */
+
+header {
+    width: 100%;
+    background-color: #343436;
+    padding: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.menu_item {
+    display: inline;
+    width: 30%;
+    margin: 1rem;
+}
+
+.menu_item a {
+    padding: 20px;
+    background-color: #343436;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.menu_item a:hover {
+    background-color: #454545;
+}
+
+.fr_box {
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input_txt {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.fr_box label {
+    font-weight: bold;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box label {
+    font-weight: bold;
+}
+
+
+/* tabel */
+
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+tr {
+    background-color: #343436;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
